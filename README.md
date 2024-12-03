@@ -1,3 +1,12 @@
+tehtävät eri brancheilla
+
+ - 1.1
+    - Geolocation API
+ - 1.2
+    - Clipboard API
+ - 1.3
+    - Custom APIs
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
