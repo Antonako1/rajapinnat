@@ -68,7 +68,7 @@ const Card = ({ props }: CardProps) => {
 
     return (
         <div className="card">
-            <h1>Time limit: {currentTime}s/{MAX_SECONDS}</h1>
+            <h1>Time limit: {currentTime}s/{MAX_SECONDS}s</h1>
             <h1>{props.title}</h1>
             <h2>Category: "{props.data.category}"</h2>
             <h2>Difficulty: {props.data.difficulty}</h2>
