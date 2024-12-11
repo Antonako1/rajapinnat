@@ -2,3 +2,108 @@
   margin: 0;
   padding: 0;
 }
+
+.select select{
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+}
+.select label {
+  font-size: 1rem;
+  margin-right: 0.5rem;
+}
+
+.MainDiv{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  height: 100vh;
+  background-color: blanchedalmond;
+}
+
+.MainDiv > h1{
+  font-size: 3rem;
+  color: #333;
+}
+
+.InnerMain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.InnerMain input{
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+  width: 300px;
+}
+
+.InnerMain > button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+  background-color: #333;
+  color: white;
+}
+.InnerMain > button:hover {
+  background-color: #555;
+}
+
+
+
+
+.QuizMain{
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+  overflow: scroll;
+  /* height: 50vh; */
+}
+
+.QuizMain button {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: 1px solid #333;
+  border-radius: 0.5rem;
+  background-color: #333;
+  color: white;
+}
+
+.QuizMain button:hover {
+  background-color: #555;
+}
+
+.QuizMain h1 {
+  font-size: 2rem;
+  color: #333;
+}
+
+
+.card{
+  border: 1px solid red;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin: 5px;
+  width: 75vw;
+}
+
+.card h2{
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 5px;
+  border-bottom: 1px solid black;
+}
+.card button{
+  margin: 5px;
+}
