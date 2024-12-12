@@ -1,0 +1,201 @@
+.animeCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+button{
+    padding: 0.5rem 1rem;
+    margin: 0.5rem 0;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+button:hover{
+    background-color: #5f5f5f;
+    color: #000;
+}
+
+.animeCardSmall {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.Home{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.Home input {
+    width: 90%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+.DetailsMain{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.DetailsMain p{
+    margin: 0.5rem 0;
+    border: 1px solid black;
+    width: 70vw;
+    text-align: center;
+}
+.DetailsMain h2{
+    margin: 0.5rem 0;
+}
+.DetailsMain img{
+    width: 25%;
+    height: fit-content;
+    border-radius: 1rem;
+}
+
+.recommendations{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.recommendations img{
+    width: 25%;
+    height: fit-content;
+    border-radius: 1rem;
+}
+
+select {
+    width: 90%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+option{
+    padding: 0.5rem;
+}
+
+.spinner-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full screen height */
+  }
+  
+  .spinner {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #3498db; /* Blue color for the spinner */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  h2 {
+    margin-top: 20px;
+    color: #3498db; /* Blue color */
+  }
+  
+
+
+/*vertical scroll area*/
+.randoms{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 250px;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.randoms .animeCardSmall{
+    width: 200px;
+    height: 200px;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+.randoms img {
+    width: 200px;
+    height: fit-content;
+    border-radius: 1rem;
+}
+.randoms:hover{
+    background-color: #f5f5f5;
+    transform: scale(1.1);
+}
+
+.randomMain{
+    gap: 1rem;
+    overflow: scroll;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
