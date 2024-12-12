@@ -23,6 +23,7 @@ const EMPTY_STATS: PokemonStats = {
 }
 function App() {
     const [index, setIndex] = useState<number>(1)
+    const [searchIndex, setSearchIndex] = useState<number>(0)
     const [pokemonText, setPokemonText] = useState<string>('')
     const [stats, setStats] = useState<PokemonStats>({
         Available: false,
@@ -44,8 +45,14 @@ function App() {
         index-1 <= 0 ? MAX_POKEMON : index - 1    
     )
     const handleSearch = async () => {
+        if (!isNaN(Number(pokemonText))) {
+            setSearchIndex(Number(pokemonText))
+            setPokemonText('')
+            setIndex(Number(pokemonText))
+            return
+        }
+
         try {
-            
             const response = await fetch(`${baseUrl}pokemon/${pokemonText}`)
             const data = await response.json()
             console.log(data)
@@ -94,8 +101,11 @@ function App() {
             <input 
                 type='text'
                 value={pokemonText}
-                onChange={(e) => setPokemonText(e.target.value)}
-                placeholder='Enter pokemon name'
+                onChange={(e) => {
+                    const val = e.target.value
+                    setPokemonText(val)
+                }}
+                placeholder='Enter pokemon name or index id'
             />
             <Button text="Search" onClick={handleSearch} />
             <div className='MID_DIV'>
