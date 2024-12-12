@@ -1,0 +1,105 @@
+.input {
+    width: 200px;
+    padding: 10px;
+    margin: 10px 0;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button {
+    width: 100px;
+    padding: 10px;
+    margin: 10px 0;
+    margin-left: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #4CAF50;
+    color: white;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.GameCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.GameCard img {
+    width: 200px;
+    height: fit-content;
+}
+
+.GameDetails {
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.backButton {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.backButton:hover {
+    background-color: #0056b3;
+}
+
+.gameImage {
+    width: 300px;
+    height: auto;
+    margin: 20px 0;
+}
+
+.deals {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.dealCard {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 200px;
+    text-align: left;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.dealCard h4 {
+    margin: 0 0 10px;
+    font-size: 18px;
+}
+
+.storeLogo {
+    width: 50px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.loading {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 50px;
+}
