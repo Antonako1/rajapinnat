@@ -6,6 +6,12 @@ tehtävät eri brancheilla
     - Clipboard API
  - 1.3
     - Custom APIs
+ - 2.1-2.9 
+    - 3rd party api
+ - 3.1-3.2
+    - API-avain
+ - 4.1-4.3
+    - GraphQL
 
 # React + TypeScript + Vite
 
